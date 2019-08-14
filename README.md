@@ -8,7 +8,7 @@ If you are not familiar with Create React App you can find an up to date guide [
 
 ## Exercises
 
-You will find the **exercises and associated instructions** in separate named folders(exercise-1, exercise-2, etc.) in the root of this project. **Follow the instructions in the folders and complete the exercises one by one**. Try not to spend more than **8 hours**. 
+You will find the **exercises and associated instructions** in separate named folders(exercise-1, exercise-2, etc.) in the root of this project. **Follow the instructions in the folders and complete the exercises one by one**.
 
 
 ## Folder Structure
@@ -42,7 +42,6 @@ If you are completing this offsite please push your local working copy to a remo
 
 Please contact us if you have any questions.
 ```
---
 Anja Rupnik
 anja.rupnik@debijenkorf.nl
 
