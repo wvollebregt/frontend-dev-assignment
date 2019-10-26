@@ -3,6 +3,7 @@
 }
 
 .searchBar__input {
+  color: #757575;
   width: 23.3333rem;
   height: 3rem;
   border: 1px solid #ccc;
@@ -11,16 +12,42 @@
   text-indent: 0.6667rem;
   box-sizing: border-box;
 }
+.searchBar--focus .searchBar__input,
+.searchBar__button:focus,
+.searchBar__button:hover {
+  border-color: #000;
+  color: #000;
+  transition-property: border, color;
+  transition-duration: .5s;
+}
+
+.searchBar__button:focus,
+.searchBar__button:hover {
+  background-color: darkgray;
+  color: #fff;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+  transition-property: background, filter;
+}
 
 .searchBar__button {
-  background: url(https://img.icons8.com/ios-glyphs/15/000000/search.png) no-repeat 50% 50% transparent;
+  background: url(https://img.icons8.com/ios-glyphs/15/000000/search.png) no-repeat 45% 50% transparent;
   position: absolute;
   width: 3rem;
   height: 3rem;
   padding: 0;
-  margin: 0 0 0 -3.1667rem;
+  margin: 0 0 0 -3rem;
   border: none;
   cursor: pointer;
   box-sizing: border-box;
 }
-  
+
+.searchBar__button.reset {
+  background-image: url(https://img.icons8.com/ios/16/000000/delete-sign.png);
+  display: none;
+  margin-left: -6rem;
+}
+
+.searchBar--focus .searchBar__button.reset {
+  display: inline-block;
+}
